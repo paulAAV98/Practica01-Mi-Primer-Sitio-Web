@@ -1,0 +1,58 @@
+.contenedor-reloj{
+    margin-top: 0.2rem;   
+}
+
+
+.desc-reloj .foto{
+    float: left;
+    width: 40%;
+}
+
+
+.desc-reloj .foto img{
+    width: 500px;
+    height: 200px;
+}
+
+.desc-reloj .texto{
+    padding: 3%;
+    margin-top: 2rem;
+    float: left;
+    text-align: justify;
+    width: 50%;
+}
+
+.reloj-container {
+    margin: 1rem;
+}
+
+.text-r h2{
+    text-align: center;
+}
+.reloj-products{
+    display: grid;
+    gap: 50px ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+
+.it-gal{
+    position: relative;
+}
+
+.reloj-products img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.rl-tit{
+    position: absolute;
+    bottom: -1rem;
+    color: #ffffff;
+    background: #333;
+    width: 100%;
+}
+
+

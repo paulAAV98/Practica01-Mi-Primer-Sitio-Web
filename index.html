@@ -7,29 +7,62 @@
     <title>Joyeria Arichabala</title>
     <!---FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <!-- CUSTOM CSS-->
-    
-    <link rel="stylesheet" href="styles.css" >
+    <!-- ESTILO CSS PAGINA-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--ESTILO DE FONDO-->
+    <link rel="stylesheet" href="css/header_fondo_nav_footer.css">
 </head>
 <body>
-  <div class="container">
-      <nav class="nav-main">
-          <img src="images/logo.png" alt="Joyeria Arichabala Logo" class="nav-brand">
-          <ul class="nav-menu">
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="group-header">
+                    <div class="h-box">
+                        <figure>
+                            <img src="images/logo.png" alt="Joyeria" width="250px" height="100px">
+                        </figure>
+                    </div>
+                    <div class="h-box">
+                        <div class="buscador">
+                            <input type="text" name="Buscar" placeholder="buscar">
+                        </div>
+                    </div>
+                    <div class="h-box">
+                        <h2>SIGUENOS</h2>
+                        <div class="redsocial">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+        </header>
+        <nav class="nav-main">
+            <ul class="nav-menu">
               <li>
-                  <a href="cliente/cliente.html">Home</a>
+                  <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">Anillos</a>
+                <a href="joyeria/joyas/joya.html">Joyas</a>
             </li>
             <li>
-                <a href="#">Relojes</a>
+                <a href="joyeria/relojes/reloj.html">Relojes</a>
             </li>
             <li>
-                <a href="#">Catalago</a>
+                <a href="joyeria/taller/taller.html">Taller</a>
             </li>
             <li>
-                <a href="#">Contactenos</a>
+                <a href="joyeria/catalogo/galeria.html">Catalago</a>
+            </li>
+            <li>
+                <a href="cliente/formulario.html">Contactenos</a>
             </li>
             </ul>
             <ul class="nava-menu-right">
@@ -40,54 +73,118 @@
                 </li>
             </ul>
         </nav>
-    <hr>
-  </div>
-</div>
-    <section class="background-video">
-        <article class="video">
-            <div class="containervideo"> 
-                <video src="video/joya.mp4" width="100%" height="920px" preload autoplay muted loop></video>   
+        <hr>
+        <section class="background-video">
+            <article class="video">
+                <div class="containervideo"> 
+                    <video src="video/joya.mp4" width="100%" height="90%" preload autoplay muted loop></video>   
+                </div>
+            </article>     
+        </section>
+        <br>
+        <!-- NEW PRODUCTS -->
+        <section class="cards-bannner-one">   
+            <h2>Joyas Disponibles</h2>
+            <article class="gallery">
+                <div class="gallery-container"> 
+                    <div class="new-products">
+                        <div class="item-gallery">
+                            <img src="images/anillocompromiso.jpg" alt="Producto1" class=gallery-img>
+                            <h2 class="gallery-tittle">Anillo de Matrimonio</h2>
+                        </div>
+                        <div class="item-gallery">
+                            <img src="images/anillodiamante.jpg" alt="Producto2" class=gallery-img>
+                            <h2 class="gallery-tittle">Anillo con Diamante</h2>
+                        </div>
+                        <div class="item-gallery">
+                            <img src="images/aretediamante.jpg" alt="Producto3"class=gallery-img>
+                            <h2 class="gallery-tittle">Arete con Diamante</h2>
+                        </div>
+                        <div class="item-gallery"> 
+                            <img src="images/pulsera.jpg" alt="Producto4" class=gallery-img>  
+                            <h2 class="gallery-tittle">Pulser Diamantada</h2>
+                        </div>
+                        <div class="item-gallery">
+                            <img src="images/puldiamante.jpg" alt="Producto5" class=gallery-img>
+                            <h2 class="gallery-tittle">Pulsera en bronce</h2>            
+                        </div>
+                        <div class="item-gallery">
+                            <img src="images/anillozaphiro.jpg" alt="Producto6" class=gallery-img>
+                            <h2 class="gallery-tittle">Anillo con bordes de Diamante</h2>
+                        </div>
+                        <div class="item-gallery">
+                            <img src="images/aretedi.jpg" alt="Producto7" class=gallery-img>
+                            <h2 class="gallery-tittle">Aretes con brillo</h2>
+                        </div>
+                        <div class="item-gallery">
+                            <img src="images/anilloagua.jpg" alt="Producto8" class=gallery-img>     
+                            <h2 class="gallery-tittle">Anillo de Oro</h2>
+                        </div>
+                    </div>    
+                </div>
+            </article>
+        </section>
+        <br>
+        
+        <section class="hist-joy">
+            <div class="cont-hist">
+                <h2>Historia de Joyeria</h2>
+                <article class="fo-h">
+                    <figure>
+                        <img src="/images/egipto.png" alt="egipto">
+                    </figure>
+                </article>
+
+                <aside class="tex-h"> 
+                    <p>Los primeros signos de manufactura de joyería fue en el antiguo Egipto hace 3000-5000 años.​ Los egipcios 
+                        preferían la escasez y manejabilidad del oro sobre otros metales. En el periodo predinástico las joyas 
+                        comenzaron a simbolizar estatus y poder religioso en la comunidad. No solo eran llevadas por las clases ricas en vida, 
+                        sino también en la muerte, formando parte del denominado ajuar funerario.</p>
+                </aside>
             </div>
-        </article>     
-    </section>
-<!-- NEW PRODUCTS -->
-    <section class="cards-bannner-one">
-        <article class="gallery">
-            <h2>Productos Disponibles</h2>
-            <div class="gallery-container"> 
-                <div class="new-products">
-                    <div>
-                        <img src="images/anillocompromiso.jpg" alt="Producto1">
-                    
-                    </div>
-                    <div>
-                        <img src="images/anillodiamante.jpg" alt="Producto2">
-                   
-                    </div>
-                    <div>
-                        <img src="images/aretediamante.jpg" alt="Producto3">
-                  
-                    </div>
-                    <div>
-                        <img src="images/pulsera.jpg" alt="Producto4">  
-                    </div>
-                    <div>
-                        <img src="images/puldiamante.jpg" alt="Producto5">
-                        
-                    </div>
-                    <div>
-                        <img src="images/anillozaphiro.jpg" alt="Producto6">
-                       
-                    </div>
-                    <div>
-                        <img src="images/aretedi.jpg" alt="Producto7">
-                    </div>
-                    <div>
-                        <img src="images/anilloagua.jpg" alt="Producto8">     
-                    </div>
-                </div>    
+        </section>
+    
+        <section class="video-yt">
+            <article class="yt">
+                <div class="container-yt">
+                    <h2>Video de Joyeria</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BqPoCq4Y0yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+    </div>
+    <footer class="footer-page">
+        <div class="group-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </figure>
             </div>
-        </article>
-    </section>
+            <div class="box">
+                <h2>Autor</h2>
+                <p>Paul Arichabala</p>
+                <p>Correo: <a href="mailto:polarichabalav@outlook.com" title="Enviar Correo">Enviar Mail</a></p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="redsocial">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>Paul Arichabala</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer> 
 </body>
 </html>
